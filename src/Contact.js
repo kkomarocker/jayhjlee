@@ -21,8 +21,8 @@ const showAphorism = aphArr => {
   const idx = Math.floor(Math.random() * Math.floor(aphArr.length));
   return (
     <div class="aphorism">
-      <h1>{`"${aphorisms[idx]}"`}</h1>
-      <h2>{`- ${writer[idx]} -`}</h2>
+      <div>{`"${aphorisms[idx]}"`}</div>
+      <div>{`- ${writer[idx]} -`}</div>
     </div>
   );
 };
@@ -45,7 +45,7 @@ const Skills = () => {
           <img src="./resume.png" class="contact-icon" alt="resume-icon" />
         </a>
       </div>
-      <div>{pageLoad() === -1920 ? showAphorism(aphorisms) : null}</div>
+      <div>{showAphorism(aphorisms)}</div>
     </div>
   );
 };

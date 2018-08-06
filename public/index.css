@@ -340,6 +340,11 @@
     padding: 5px 0 10px 0;
     text-align: center;
   }
+  .aphorism {
+    margin: 40px 0 40px 0;
+    text-align: center;
+    font-style: italic;
+  }
 }
 
 /* /// Mobiles (iphone 6 and up) /// */
@@ -554,6 +559,11 @@
     height: 32px;
     width: 32px;
   }
+  .aphorism {
+    margin: 10px 0 10px 0;
+    text-align: center;
+    font-style: italic;
+  }
 }
 
 /* /// Old mobiles /// */
@@ -606,5 +616,10 @@
     margin-right: 5px;
     height: 16px;
     width: 16px;
+  }
+  .aphorism {
+    margin: 10px 0 10px 0;
+    text-align: center;
+    font-style: italic;
   }
 }
