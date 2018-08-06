@@ -1,13 +1,10 @@
 import React from "react";
-import { Container, Header } from "semantic-ui-react";
 
 const About = () => {
   return (
-    <div>
-      <Header className="about-heading" size="large">
-        Who I am
-      </Header>
-      <Container textAlign="center">
+    <div id="about-container">
+      <div class="about-heading">Who I am</div>
+      <div>
         <p className="about-paragraph">
           Brilliant and passionate.
           <br />
@@ -25,12 +22,12 @@ const About = () => {
           <br />
           Positive.
         </p>
-        <div class="dots">
-          <h3>.</h3>
-          <h3>.</h3>
-          <h3>.</h3>
-        </div>
-      </Container>
+      </div>
+      <div class="dots">
+        <h3>.</h3>
+        <h3>.</h3>
+        <h3>.</h3>
+      </div>
     </div>
   );
 };

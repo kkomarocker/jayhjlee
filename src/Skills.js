@@ -1,33 +1,33 @@
 import React from "react";
-import { Container, List } from "semantic-ui-react";
+import { Container } from "semantic-ui-react";
 
 const Skills = () => {
   return (
-    <div>
-      <h1 class="skills-heading">Skills</h1>
+    <div id="skills-container">
       <Container>
-        <List as="h1" className="skills-group" size="massive">
-          <List.Item>Javascript</List.Item>
-          <List.Item>React</List.Item>
-          <List.Item>Redux</List.Item>
-          <List.Item>ExpressJS</List.Item>
-          <List.Item>PostgresQL</List.Item>
-          <List.Item>NodeJS</List.Item>
-          <List.Item>HTML5</List.Item>
-          <List.Item>CSS3</List.Item>
-          <List.Item>Material-Ui</List.Item>
-          <List.Item>Semantic-Ui</List.Item>
-          <List.Item>Git</List.Item>
-          <List.Item>Mocha</List.Item>
-          <List.Item>Chai</List.Item>
-          <List.Item>Heroku</List.Item>
-        </List>
+        <div class="skills-heading">Skills</div>
+        <ul class="skills-group">
+          <li class="skill">Javascript</li>
+          <li class="skill">React</li>
+          <li class="skill">Redux</li>
+          <li class="skill">ExpressJS</li>
+          <li class="skill">PostgresQL</li>
+          <li class="skill">NodeJS</li>
+          <li class="skill">HTML5</li>
+          <li class="skill">CSS3</li>
+          <li class="skill">Material-Ui</li>
+          <li class="skill">Semantic-Ui</li>
+          <li class="skill">Git</li>
+          <li class="skill">Mocha</li>
+          <li class="skill">Chai</li>
+          <li class="skill">Heroku</li>
+        </ul>
+        <div class="dots">
+          <h2>.</h2>
+          <h2>.</h2>
+          <h2>.</h2>
+        </div>
       </Container>
-      <div class="dots">
-        <h2>.</h2>
-        <h2>.</h2>
-        <h2>.</h2>
-      </div>
     </div>
   );
 };

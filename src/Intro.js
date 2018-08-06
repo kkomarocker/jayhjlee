@@ -1,26 +1,24 @@
 import React from "react";
-import { Container, Image, Header } from "semantic-ui-react";
+import { Container, Image } from "semantic-ui-react";
 
 const Intro = () => {
   return (
-    <div>
+    <div id="home-container">
       <Container id="profile-pic-container">
         <Image id="profile-picture" src="jayprofile.png" alt="jay-profile" />
       </Container>
-      <Header className="home-heading" size="large">
-        Hello. I am Jay
-      </Header>
-      <Header size="small" textAlign="center">
-        <h3>Software Engineer</h3>
-        <h3>Critical Thinker</h3>
-        <h3>React Freak</h3>
-        <h3>Krazy Drummer</h3>
+      <h1 class="intro-heading">Hello. I am Jay</h1>
+      <div class="intro-group">
+        <h3 class="intro-description">Software Engineer</h3>
+        <h3 class="intro-description">Critical Thinker</h3>
+        <h3 class="intro-description">React Freak</h3>
+        <h3 class="intro-description">Krazy Drummer</h3>
         <div class="dots">
           <h3>.</h3>
           <h3>.</h3>
           <h3>.</h3>
         </div>
-      </Header>
+      </div>
     </div>
   );
 };

@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
 
 const aphorisms = [
   "Let no one ever come to you without leaving better and happier",
@@ -30,32 +29,22 @@ const showAphorism = aphArr => {
 
 const Skills = () => {
   return (
-    <div onLoad={() => pageLoad()}>
-      <h1 class="contact-heading">Keep in touch!</h1>
-      <Container>
-        <div class="contact-icon-group">
-          <a href="https://github.com/kkomarocker">
-            <img
-              src="./githubskill.png"
-              class="contact-icon"
-              alt="github-icon"
-            />
-          </a>
-          <a href="https://www.linkedin.com/in/jayhjlee/">
-            <img
-              src="./linkedin.png"
-              class="contact-icon"
-              alt="linkedin-icon"
-            />
-          </a>
-          <a href="mailto:jayhjlee0319@gmail.com">
-            <img src="./mail.png" class="contact-icon" alt="mail-icon" />
-          </a>
-          <a href="./Hyun_Jae_Jay_Lee_Resume.pdf" download>
-            <img src="./resume.png" class="contact-icon" alt="resume-icon" />
-          </a>
-        </div>
-      </Container>
+    <div id="contact-container" onLoad={() => pageLoad()}>
+      <div class="contact-heading">Keep in touch!</div>
+      <div class="contact-icon-group">
+        <a href="https://github.com/kkomarocker">
+          <img src="./githubskill.png" class="contact-icon" alt="github-icon" />
+        </a>
+        <a href="https://www.linkedin.com/in/jayhjlee/">
+          <img src="./linkedin.png" class="contact-icon" alt="linkedin-icon" />
+        </a>
+        <a href="mailto:jayhjlee0319@gmail.com">
+          <img src="./mail.png" class="contact-icon" alt="mail-icon" />
+        </a>
+        <a href="./Hyun_Jae_Jay_Lee_Resume.pdf" download>
+          <img src="./resume.png" class="contact-icon" alt="resume-icon" />
+        </a>
+      </div>
       <div>{pageLoad() === -1920 ? showAphorism(aphorisms) : null}</div>
     </div>
   );
