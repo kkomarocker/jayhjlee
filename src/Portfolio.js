@@ -100,7 +100,7 @@ const Portfolio = () => {
           </p>
         </div>
         <div class="link-icon">
-          <a href="https://medium.com/@kkomarocker/about-base64-dd03f525f315">
+          <a href="https://medium.com/@kkomarocker/deploying-production-build-in-heroku-7f2cb30f9e4b">
             <img src="./medium.png" class="github-img" alt="medium-blog" />
           </a>
         </div>
