@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "semantic-ui-react";
 
 const Portfolio = () => {
   return (
@@ -29,6 +28,7 @@ const Portfolio = () => {
           <img src="./expo.png" class="stack-icon" alt="expo" />
           <img src="./googlecloud.jpg" class="stack-icon" alt="googlecloud" />
           <img src="./firebase.png" class="stack-icon" alt="firebase" />
+          <img src="./css.png" class="stack-icon" alt="css" />
         </div>
         <div class="link-icon">
           <a href="https://github.com/FourCents1804/Dime">
@@ -55,6 +55,7 @@ const Portfolio = () => {
           <img src="./js.jpg" class="stack-icon" alt="js" />
           <img src="./reactnative.png" class="stack-icon" alt="react" />
           <img src="./s3.png" class="stack-icon" alt="s3" />
+          <img src="./css.png" class="stack-icon" alt="css" />
         </div>
         <div class="link-icon">
           <a href="https://github.com/kkomarocker/Facer">
