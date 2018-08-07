@@ -84,6 +84,27 @@ const Portfolio = () => {
           </a>
         </div>
       </div>
+      <hr class="divider" />
+      <div class="dime-img-group">
+        <div>
+          <img src="./blog2.png" class="dime-img" alt="dime-img1" />
+        </div>
+      </div>
+      <div>
+        <div class="dime-heading">Deploying production build in Heroku</div>
+        <div class="dime-meta">Aug 2018 | Developer | Blog</div>
+        <div class="dime-description">
+          <p>
+            My blog post explains deployment in heroku, using create-react-app<br />
+            during application developement.
+          </p>
+        </div>
+        <div class="link-icon">
+          <a href="https://medium.com/@kkomarocker/about-base64-dd03f525f315">
+            <img src="./medium.png" class="github-img" alt="medium-blog" />
+          </a>
+        </div>
+      </div>
       <div class="dots">
         <h2>.</h2>
         <h2>.</h2>
