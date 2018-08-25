@@ -41,7 +41,7 @@ const Skills = () => {
         <a href="mailto:jayhjlee0319@gmail.com">
           <img src="./mail.png" class="contact-icon" alt="mail-icon" />
         </a>
-        <a href="./Hyun_Jae_Jay_Lee_Resume.pdf" download>
+        <a href="./Hyun_Jae_Jay_Lee_Resume_8-17.pdf" download>
           <img src="./resume.png" class="contact-icon" alt="resume-icon" />
         </a>
       </div>
